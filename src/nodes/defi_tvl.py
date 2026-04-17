@@ -17,6 +17,7 @@ PROTOCOL_METADATA = {
     "id": PROTOCOL_DATASET_ID,
     "title": "DeFi Protocol TVL",
     "description": "Total Value Locked (TVL) for DeFi protocols from DefiLlama. Includes protocol name, category, chains supported, and current TVL in USD.",
+    "license": "MIT - DefiLlama (open source, redistribution allowed)",
     "column_descriptions": {
         "protocol_id": "DefiLlama protocol identifier",
         "name": "Protocol name",
@@ -34,6 +35,7 @@ CHAIN_METADATA = {
     "id": CHAIN_DATASET_ID,
     "title": "DeFi Chain TVL",
     "description": "Total Value Locked (TVL) by blockchain from DefiLlama. Shows how DeFi value is distributed across different blockchains.",
+    "license": "MIT - DefiLlama (open source, redistribution allowed)",
     "column_descriptions": {
         "chain": "Blockchain name",
         "tvl_usd": "Total Value Locked in USD",

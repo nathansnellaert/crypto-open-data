@@ -15,6 +15,7 @@ METADATA = {
     "id": DATASET_ID,
     "title": "DEX Trading Volumes",
     "description": "Decentralized exchange (DEX) trading volumes from DefiLlama. Shows daily volume and historical data for major DEX protocols.",
+    "license": "MIT - DefiLlama (open source, redistribution allowed)",
     "column_descriptions": {
         "protocol_id": "Protocol identifier",
         "name": "DEX protocol name",
@@ -124,6 +125,8 @@ def run():
 
     overwrite(table, DATASET_ID)
     publish(DATASET_ID, METADATA)
+
+
 from nodes.defillama import run as defillama_run
 
 NODES = {

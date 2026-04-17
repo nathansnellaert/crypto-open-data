@@ -14,6 +14,7 @@ METADATA = {
     "id": DATASET_ID,
     "title": "DeFi Protocol Fees",
     "description": "Protocol fees and revenue from DefiLlama. Shows how much value each DeFi protocol captures through fees over various time periods.",
+    "license": "MIT - DefiLlama (open source, redistribution allowed)",
     "column_descriptions": {
         "protocol_id": "DefiLlama protocol slug identifier",
         "name": "Protocol name",

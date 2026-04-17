@@ -15,6 +15,7 @@ METADATA = {
     "id": DATASET_ID,
     "title": "DeFi Lending Rates",
     "description": "DeFi lending and yield rates from DefiLlama. Shows APY for various pools across lending protocols, staking, and liquidity provision.",
+    "license": "MIT - DefiLlama (open source, redistribution allowed)",
     "column_descriptions": {
         "pool_id": "Unique pool identifier",
         "chain": "Blockchain name",
@@ -154,6 +155,8 @@ def run():
 
     overwrite(table, DATASET_ID)
     publish(DATASET_ID, METADATA)
+
+
 from nodes.defillama import run as defillama_run
 
 NODES = {

@@ -15,6 +15,7 @@ METADATA = {
     "id": DATASET_ID,
     "title": "Stablecoin Market Data",
     "description": "Stablecoin market data from DefiLlama. Includes supply, peg type, and circulating amounts across chains.",
+    "license": "MIT - DefiLlama (open source, redistribution allowed)",
     "column_descriptions": {
         "stablecoin_id": "DefiLlama stablecoin identifier",
         "name": "Stablecoin name",
@@ -145,6 +146,8 @@ def run():
 
     overwrite(table, DATASET_ID)
     publish(DATASET_ID, METADATA)
+
+
 from nodes.defillama import run as defillama_run
 
 NODES = {
